@@ -182,4 +182,3 @@ If you are looking for an engineer who writes clean code, implements rigorous ML
 © 2026 Lucas Camargo. All Rights Reserved.
 
 This code, architecture, documentation, and all associated intellectual property are proprietary and confidential. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means — including copying, recording, or any information storage and retrieval system — without the prior written permission of the author.
-
