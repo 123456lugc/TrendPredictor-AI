@@ -153,8 +153,8 @@ I built this pipeline to solve the real-world disconnect between raw marketing d
 
 If you are looking for an engineer who writes clean code, implements rigorous ML mathematics, and documents it clearly for both technical and non-technical teams — let's talk.
 
-- 📧 **Email:** [lucascamargo@outlook.com.au]
-- 🔗 **LinkedIn:** [https://www.linkedin.com/in/lucas-camargo-614307139/]
+- 📧 **Email:** lucascamargo@outlook.com.au
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/lucas-camargo-614307139/
 
 ---
 
@@ -185,7 +185,7 @@ TrendPredictor-AI/
 
 ## © Copyright
 
-© 2026 [Lucas Camargo]. All Rights Reserved.
+© 2026 Lucas Camargo. All Rights Reserved.
 
 This code, architecture, documentation, and all associated intellectual property are proprietary and confidential. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means — including copying, recording, or any information storage and retrieval system — without the prior written permission of the author.
 
