@@ -83,11 +83,13 @@ Every product receives a precise business recommendation based on two combined s
 The pipeline produces two professionally formatted Excel workbooks and 16 automated charts on every run.
 
 ### 📦 Product_Catalog_Detailed.xlsx — For Operations & Supply Chain
+
 A **51-column operational database** with two sheets:
 - `Product_Catalog` — AI forecasts alongside auto-generated SKUs, supplier mapping, stock levels, reorder points, warehouse locations, dimensional weights, conversion rates, customer LTV, competitor pricing, and market share estimates
 - `Catalog_Summary` — 16-row KPI dashboard: total stock value, forecasted revenue/profit, avg ratings, products needing reorder
 
 ### 📈 Marketing_Intelligence_Report.xlsx — For C-Suite & Marketing
+
 A **10-tab executive dashboard:**
 
 | Tab | Contents |
@@ -104,19 +106,24 @@ A **10-tab executive dashboard:**
 | Model_Comparison | All four model scores side by side with winner flagged |
 
 ### 📊 16 Automated Charts
+
 10 model diagnostic charts (prediction vs actual, residuals, error distribution, learning curve, SHAP/permutation importance, Q-Q plot) and 6 marketing intelligence charts (top products, revenue by category, demand tiers, action plan distribution, price vs sales, weekly trends).
 
 When running inside **Kaggle or Jupyter**, all 16 charts render inline below the code cell automatically — no file download needed.
+
+*(See `sample_outputs_AI/` and `sample_outputs_marketing/` folders above for visual examples.)*
 
 ---
 
 ## 🔬 Dual-Audience Documentation
 
-Writing code is only half the job — driving adoption is the other. This repository includes two professionally authored documents that demonstrate the ability to communicate complex data science to any audience:
+Writing code is only half the job — driving adoption is the other. This repository includes professionally authored documentation that demonstrates the ability to communicate complex data science to any audience.
 
 **📖 User Manual** — A step-by-step guide for non-technical operations and marketing teams. Covers how to export data from Google Trends, Facebook Ads Manager, and your sales platform, how to configure the pipeline, and how to interpret every business recommendation — with no Python knowledge required. Includes a full Kaggle walkthrough for users who cannot install Python locally.
 
 **🔬 Code Explanation Guide** — A comprehensive architectural breakdown for technical stakeholders and engineering auditors. Every function is explained twice: strict mathematical and engineering terminology for engineers, and plain-English business logic for non-technical stakeholders.
+
+> 📬 **Available on request** — The full Code Explanation Guide is not published here to protect intellectual property. If you are a hiring manager or technical reviewer, reach out directly and I will send it within 24 hours: [lucascamargo@outlook.com.au](mailto:lucascamargo@outlook.com.au)
 
 ---
 
@@ -127,15 +134,10 @@ Writing code is only half the job — driving adoption is the other. This reposi
 pip install numpy pandas matplotlib seaborn scikit-learn scipy openpyxl xlsxwriter lightgbm xgboost optuna shap
 
 # Run on synthetic data (no CSV files needed — good for testing)
-python pipeline_improved.py
-
-# To run on your real data:
-# 1. Open pipeline_improved.py in any text editor
-# 2. Change line 81:  USE_REAL_DATA = False  →  USE_REAL_DATA = True
-# 3. Place your three CSV files in the same folder
-# 4. Run:
-python pipeline_improved.py
+python pipeline_architecture_skeleton.py
 ```
+
+> 💡 The full working script is available for live review during interviews. The skeleton file in this repo demonstrates architecture and documentation standards.
 
 **Required CSV files when using real data:**
 
@@ -147,17 +149,6 @@ python pipeline_improved.py
 
 ---
 
-## 🤝 Let's Connect
-
-I built this pipeline to solve the real-world disconnect between raw marketing data and inventory ROI. I am looking for a Data Science or Machine Learning Engineering role where I can build resilient, automated systems that directly drive business revenue.
-
-If you are looking for an engineer who writes clean code, implements rigorous ML mathematics, and documents it clearly for both technical and non-technical teams — let's talk.
-
-- 📧 **Email:** lucascamargo@outlook.com.au
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/lucas-camargo-614307139/
-
----
-
 ## 📂 Repository Structure
 
 ```
@@ -165,21 +156,24 @@ TrendPredictor-AI/
 │
 ├── README.md                          ← You are here
 ├── pipeline_architecture_skeleton.py  ← Full architecture with IP removed
+├── User_Manual.pdf                    ← Step-by-step guide for non-technical teams
 │
-├── docs/
-│   ├── User_Manual.pdf                ← Step-by-step guide for non-technical teams
-│   └── Code_Explanation_Guide.pdf     ← Technical deep-dive for engineers & auditors
-│
-└── sample_outputs/
-    ├── Executive_Summary.png
-    ├── Top_30_Products.png
-    ├── Urgent_Actions.png
-    └── charts/
-        ├── model_performance_dashboard.png
-        └── marketing_intelligence_overview.png
+├── sample_outputs_AI/                 ← Model performance & diagnostic charts
+└── sample_outputs_marketing/          ← Marketing intelligence & business charts
 ```
 
-> **🔒 IP Protection Notice:** The working `pipeline_improved.py` is not included in this repository to protect intellectual property. The skeleton file above contains every function signature, full docstring, and architectural comment — but the proprietary mathematics, ETL cleaning logic, and Bayesian tuning algorithms have been removed. I am available for a live, line-by-line technical walkthrough during any interview or review.
+> 🔒 **IP Protection Notice:** The working `pipeline_improved.py` is not included in this repository. The skeleton file contains every function signature, full docstring, and architectural comment — but the proprietary mathematics, ETL cleaning logic, and Bayesian tuning algorithms have been removed. I am available for a live, line-by-line technical walkthrough during any interview or review.
+
+---
+
+## 🤝 Let's Connect
+
+I built this pipeline to solve the real-world disconnect between raw marketing data and inventory ROI. I am looking for a Data Science or Machine Learning Engineering role where I can build resilient, automated systems that directly drive business revenue.
+
+If you are looking for an engineer who writes clean code, implements rigorous ML mathematics, and documents it clearly for both technical and non-technical teams — let's talk.
+
+- 📧 **Email:** [lucascamargo@outlook.com.au](mailto:lucascamargo@outlook.com.au)
+- 🔗 **LinkedIn:** [linkedin.com/in/lucas-camargo-614307139](https://www.linkedin.com/in/lucas-camargo-614307139/)
 
 ---
 
