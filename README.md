@@ -168,12 +168,11 @@ TrendPredictor-AI/
 
 ## 🤝 Let's Connect
 
-I built this pipeline to solve the real-world disconnect between raw marketing data and inventory ROI. I am looking for a Data Science or Machine Learning Engineering role where I can build resilient, automated systems that directly drive business revenue.
-
-If you are looking for an engineer who writes clean code, implements rigorous ML mathematics, and documents it clearly for both technical and non-technical teams — let's talk.
+I built this pipeline to solve the real-world disconnect between raw marketing data and inventory ROI. I am looking for an AI or Machine Learning role where I can build resilient, automated systems that directly drive business revenue.
+If you are looking for someone who applies ML mathematics, writes documented code, and communicates results clearly to both technical and non-technical teams — let's talk.
 
 - 📧 **Email:** [lucascamargo@outlook.com.au](mailto:lucascamargo@outlook.com.au)
-- 🔗 **LinkedIn:** [linkedin.com/in/lucas-camargo-614307139](https://www.linkedin.com/in/lucas-camargo-614307139/)
+- 🔗 **LinkedIn:** [linkedin.com/in/lucasgcamargo](https://www.linkedin.com/in/lucasgcamargo/)
 
 ---
 
